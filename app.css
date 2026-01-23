@@ -1,0 +1,225 @@
+html {
+    overflow-y: scroll;
+}
+
+#h1Header {
+    font-size: 14rem;
+    margin-bottom: -1rem;
+    Margin-left: 0;
+    margin-top: -4.4rem;
+    font-weight: 800;
+    letter-spacing: -1rem;
+    padding: 0;
+}
+
+#h1Header span {
+    color: #fb8500;
+}
+
+#h2Header {
+    font-size: 11.5rem;
+    margin-top: -8.5rem;
+    margin-bottom: -2.2rem;
+    font-weight: 900;
+    padding: 0;
+    letter-spacing: 7px;
+    color: #023047;
+}
+
+#h2Header span {
+    color: #219ebc;
+
+}
+
+#mainNavbar .navbar-brand {
+    color: #ff8fa3;
+}
+#mainNavbar .nav-link {
+    color: white;
+}
+#mainNavbar .nav-link:hover {
+    color: #ffcad4;
+}
+#mainNavbar {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+#mainNavbar .active {
+    color: #b8c0ff;
+}
+#newTag {
+    background-color: red;
+    color: white;
+    font-size: 0.8rem;
+}
+.date{
+    color: darkgray;
+    font-size: 0.9rem;
+}
+
+.artJourney img {
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.aboutMe img {
+    width: 80%;
+    border: 2px solid black;
+}
+
+#myName {
+    margin-top: -0.2rem;
+    margin-left: 5%;
+    letter-spacing: -0.2rem;
+    font-weight: 700;
+}
+
+#myName span{
+    color: orangered;
+}
+
+.aboutMe p {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+.blogPost img {
+    width: 80%;
+}
+footer {
+    margin-top: 15px;
+    background-color: black;
+    padding: 10px 15px;
+}
+footer div {
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+}
+footer div a h1 {
+    color: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.Portfolio {
+    height: 430px;
+}
+
+@media (max-width: 1200px) {
+    #h1Header {
+    font-size: 11rem;
+    margin-bottom: -1rem;
+    Margin-left: 0;
+    margin-top: -3.5rem;
+    font-weight: 800;
+    letter-spacing: -1rem;
+}
+    #h2Header {
+    font-size: 9rem;
+    margin-top: -8rem;
+    margin-bottom: -2.2rem;
+    font-weight: 900;
+}
+.aboutMe img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#myName {
+    margin-top: 20px;
+    margin-left: 13%;
+}
+.aboutMe p {
+    margin-left: 13%;
+    margin-right: 8%;
+}
+}
+
+@media (max-width: 780px) {
+    #myName {
+        margin-top: 8px;
+        margin-left: 0;
+}
+    .aboutMe p {
+        margin-left: 0;
+        margin-right: 0;
+}
+    footer div h6 {
+        padding: 0 15px;
+        text-align: center;
+}
+    #h1Header {
+    font-size: 9.5rem;
+    margin-top: -3.1rem;
+    letter-spacing: -0.7rem;
+}
+    #h2Header {
+        font-size: 8rem;
+        margin-top: -6rem;
+        margin-bottom: -1.8rem;
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 450px) {
+    #h1Header {
+    font-size: 7rem;
+    margin-bottom: -1rem;
+    Margin-left: 0;
+    margin-top: -2.2rem;
+    font-weight: 800;
+    letter-spacing: -0.6rem;
+}
+    #h2Header {
+    font-size: 6rem;
+    margin-top: -4.4rem;
+    margin-bottom: -1.2rem;
+    font-weight: 800;
+}
+.aboutMe img {
+    width: 95%;
+}
+#h2Header {
+            letter-spacing: 0;
+    }
+    .blogPost img {
+    width: 100%;
+}
+}
+
+@media (max-width: 380px) {
+    #h1Header {
+    font-size: 6rem;
+    margin-bottom: -1rem;
+    Margin-left: 0;
+    margin-top: -1.9rem;
+    font-weight: 800;
+    letter-spacing: -0.5rem;
+}
+    #h2Header {
+    font-size: 4.9rem;
+    margin-top: -4.2rem;
+    margin-bottom: -1.1rem;
+    font-weight: 800;
+}
+}
+
+@media (max-width: 340px) {
+    #h1Header {
+    font-size: 5.3rem;
+    margin-bottom: -1rem;
+    Margin-left: 0;
+    margin-top: -1.7rem;
+    font-weight: 800;
+    letter-spacing: -0.45rem;
+}
+    #h2Header {
+    font-size: 4.3rem;
+    margin-top: -3.4rem;
+    margin-bottom: -0.9rem;
+    font-weight: 800;
+}
+}
