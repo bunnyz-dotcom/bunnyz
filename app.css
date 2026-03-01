@@ -105,8 +105,8 @@ footer div a h1 {
     margin-bottom: 20px;
 }
 
-.Portfolio {
-    height: 430px;
+.Portfolio img{
+    width: 100%;
 }
 
 @media (max-width: 1200px) {
@@ -224,6 +224,7 @@ footer div a h1 {
 }
 
 }
+
 
 
 
