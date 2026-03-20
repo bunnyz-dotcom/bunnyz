@@ -108,6 +108,56 @@ footer div a h1 {
 .Portfolio img{
     width: 100%;
 }
+.Portfolio a {
+    font-size: 1.5em;
+    color: #fb6f92;
+    text-decoration: none;
+}
+.Portfolio a:hover {
+    color: #ffd166;
+    text-decoration: none;
+}
+
+.calculator {
+  color:#fb6f92;
+}
+#display {
+    color:#fb6f92;
+    text-align: right;
+}
+.calculatorHeading a{
+    color: #e56b6f;
+    text-decoration: none;
+}
+.calculatorHeading a:hover{
+    color: #f28482;
+}
+.calculator button {
+    color:#fb6f92;
+    border-radius: 3px;
+    border: 2px solid #fb6f92;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-top: 1px;
+}
+
+.calculator button:hover {
+    outline: none;
+    border-color: #eaac8b;
+}
+.calculator button:focus {
+    outline: none;
+    border-color: #c9184a;
+}
+.span-3 {
+  grid-column: span 2;
+}
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px; /* exactly what you want */
+}
 
 @media (max-width: 1200px) {
     #h1Header {
