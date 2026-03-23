@@ -24,81 +24,101 @@ let firstNumber = null;
 let operator = null;
 
 button1.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(1);
+    } else if (score === "-0"){
+        score = String(-1)
     } else {
         score += String(1);
     }
     h1.textContent = score;
 })
 button2.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(2);
+    } else if (score === "-0"){
+        score = String(-2)
     } else {
         score += String(2);
     }
     h1.textContent = score;
 })
 button3.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(3);
+    } else if (score === "-0"){
+        score = String(-3)
     } else {
         score += String(3);
     }
     h1.textContent = score;
 })
 button4.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(4);
+    } else if (score === "-0"){
+        score = String(-4);
     } else {
         score += String(4);
     }
     h1.textContent = score;
 })
 button5.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(5);
+    } else if (score === "-0"){
+        score = String(-5)
     } else {
         score += String(5);
     }
     h1.textContent = score;
 })
 button6.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(6);
+    } else if (score === "-0"){
+        score = String(-6)
     } else {
         score += String(6);
     }
     h1.textContent = score;
 })
 button7.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(7);
+    } else if (score === "-0"){
+        score = String(-7)
     } else {
         score += String(7);
     }
     h1.textContent = score;
 })
 button8.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(8);
+    } else if (score === "-0"){
+        score = String(-8)
     } else {
         score += String(8);
     }
     h1.textContent = score;
 })
 button9.addEventListener('click', function (){
-    if (score === 0){
+    if (score === 0 || score === "0"){
         score = String(9);
+    } else if (score === "-0"){
+        score = String(-9)
     } else {
         score += String(9);
     }
     h1.textContent = score;
 })
 button0.addEventListener('click', function (){
-    if (score === 0){
-        score = String(0);
-    } else {
+    if (!score || score === "0") {
+        score = "0"; // keeps it exactly "0"
+    } else if (score === "-0" || score === "-"){
+        score = "-0"
+    }else {
         score += String(0);
     }
     h1.textContent = score;
@@ -115,7 +135,11 @@ dot.addEventListener('click', function (){
 
 negative.addEventListener('click', function() {
   if (score.startsWith("-")) {
-    score.value = score.slice(1); // remove "-"
+    if(score.slice(1, score.length) === ''){
+        score = String(0);
+    } else { score = score.slice(1, score.length); // remove "-"
+  }} else if (score === 0 || score === "0") {
+        score = String("-")
   } else {
     score = "-" + score; // add "-"
   }
