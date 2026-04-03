@@ -52,6 +52,11 @@ html {
     color: white;
     font-size: 0.8rem;
 }
+#pinTag {
+    background-color: #06d6a0;
+    color: white;
+    font-size: 0.8rem;
+}
 .date{
     color: darkgray;
     font-size: 0.9rem;
