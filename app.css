@@ -10,10 +10,11 @@ html {
     font-weight: 800;
     letter-spacing: -1rem;
     padding: 0;
+    color:#f07167;
 }
 
 #h1Header span {
-    color: #fb8500;
+    color: #94d2bd;
 }
 
 #h2Header {
@@ -23,11 +24,11 @@ html {
     font-weight: 900;
     padding: 0;
     letter-spacing: 7px;
-    color: #023047;
+    color: #fcbf49;
 }
 
 #h2Header span {
-    color: #219ebc;
+    color: #0081a7;
 
 }
 
