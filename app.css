@@ -164,6 +164,9 @@ footer div a h1 {
   grid-template-columns: repeat(4, 1fr);
   gap: 2px; /* exactly what you want */
 }
+#RomanticPeach {
+    color:#c45161;
+}
 
 @media (max-width: 1200px) {
     #h1Header {
