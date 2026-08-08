@@ -32,21 +32,27 @@ html {
 
 }
 
+#mainNavbar {
+    font-family: "Nunito";
+    font-size: 1.3rem;
+    font-weight: 100;
+    
+    background-color: #fbe0e0;
+}
+
 #mainNavbar .navbar-brand {
-    color: #ff8fa3;
+    color: #d74a49;
+    font-weight: 200;
 }
 #mainNavbar .nav-link {
-    color: white;
+    color: #ff6361;
 }
 #mainNavbar .nav-link:hover {
-    color: #ffcad4;
+    color: White;
 }
-#mainNavbar {
-    font-size: 1.2rem;
-    font-weight: 100;
-}
+
 #mainNavbar .active {
-    color: #b8c0ff;
+    color: #809bce;
 }
 #newTag {
     background-color: red;
@@ -74,16 +80,20 @@ html {
 }
 
 #myName {
+    font-family: "Nunito";
     margin-top: -0.2rem;
     margin-left: 5%;
     letter-spacing: -0.2rem;
-    font-weight: 700;
+    font-weight: 300;
 }
 
 #myName span{
-    color: orangered;
+    color: #fb6f92;
 }
 
+.aboutMe a{
+    color: #fb6f92;
+}
 .aboutMe p {
     margin-left: 5%;
     margin-right: 10%;
@@ -95,7 +105,7 @@ html {
 }
 footer {
     margin-top: 15px;
-    background-color: black;
+    background-color: #fbe0e0;
     padding: 10px 15px;
 }
 footer div {
@@ -104,16 +114,24 @@ footer div {
    justify-content: center;
 }
 footer div a h1 {
-    color: white;
+    color: #ff6361;
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
 }
+footer h6{
+    color:#ff6361;
+}
 
 .Portfolio img{
     width: 100%;
 }
+
+.Portfolio iframe{
+    width: 100%;
+}
+
 .Portfolio a {
     font-size: 1.5em;
     color: #fb6f92;
